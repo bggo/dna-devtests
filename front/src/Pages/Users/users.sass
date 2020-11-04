@@ -1,0 +1,38 @@
+.content-box-users
+    width: 100%
+    margin: 50px
+    background: #1a1a1a
+
+    ul
+        list-style: none
+        color: #fafafa
+        
+        li
+            height: 30px
+            display: flex
+
+            & .td
+                height: 100%
+                display: flex
+                align-items: center
+                width: 50%
+            
+            svg
+                font-size: 20px
+                margin: 0 15px
+                color: #fdca40
+        
+        li:nth-child(even)
+            background: #101010
+
+.logout
+    color: #fafafa
+    text-decoration: none
+    transition: color 500ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms
+    padding: 2px 5px
+    border-bottom: 2px solid
+    margin: 15px
+    cursor: pointer
+    
+    &:hover
+        color: #fdca40
