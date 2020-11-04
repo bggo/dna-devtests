@@ -1,11 +1,39 @@
-# Development Challenges
+# MyDNA test
 
-*After your interview, pick one the challenges to move on with your process
+#### Observações
+1. É utilizado o serviço de mensageria RabbitMQ. Nesse projeto foi usado um Docker com o RabbitMQ rodando no host local e na porta 8080.
+2. Client e Server rodam em localhost, porta 3000 para o _Client_ e 8000 para o _Server_
+3. São utilizadas as fonts **_Monserrat_** do diretório do [GoogleFonts](https://fonts.google.com/).
+4. O projeto é composto por *Client* e *Servidor*, ambos estão neste repositório.
 
-- [FullStack Developer](fullstack.md)
-- [DevOps Engineer](devops.md)
+# Rodando o Projeto
 
-## How to deliver my development challenge?
-**Once you finished, please push the code writen in your personal github account, make it public and send back to your interviewer.**
+#### &nbsp;&nbsp;&nbsp; 3. Subindo o servidor
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para rodar o **Server**, use o comando:
+```
+$ yarn dev ou npm dev
+```
+#### &nbsp;&nbsp;&nbsp; 4. Subindo a Interface
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para rodar o **Client**, use o comando:
+ ```
+ $ yarn start ou npm start
+ ```
+# Diagrama
+O Diagrama para entendimento do projeto se encontra em:
 
-** Remember that someone will rate and replicate your solution, documentation will be a important part of the deliverable**
+&nbsp; https://www.figma.com/file/HIUbFxN29C2IfXVGOaWcoS/Diagrama?node-id=0%3A1
+
+
+# Bibliotecas utlizadas
+### Server
+- Axios
+- Cors
+- Express
+- amqplib
+
+### Client
+- Axios
+- Node-sass
+- React
+- React-icons
+- React-router-dom
